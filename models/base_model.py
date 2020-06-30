@@ -1,14 +1,4 @@
 #!/usr/bin/python3
-"""Python module for Amenity class inherited from BaseModel class."""
-from models.base_model import BaseModel
-
-
-class Amenity(BaseModel):
-    """Amenity Class."""
-    name = ""
-vagrant@vagrant-ubuntu-trusty-64:~/AirBnB_clone/models$ vi base_model.py
-vagrant@vagrant-ubuntu-trusty-64:~/AirBnB_clone/models$ vagrant@vagrant-ubuntu-trusty-64:~/AirBnB_clone/models$ cat base_model.py
-#!/usr/bin/python3
 """
 python modulo for BaseModel class.
 """
