@@ -44,7 +44,7 @@ Give an example
 
 ## Versioning
 
-We use python 3.4
+We used python 3.4
 
 ## License
 
