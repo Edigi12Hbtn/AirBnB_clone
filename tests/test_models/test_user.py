@@ -59,10 +59,10 @@ class TestCodeFormat(unittest.TestCase):
         cls = type(self)
 
         dict = {'id': '56d43177-cc5f-4d6c-a0c1-e167f8c27337',
-         'created_at': '2017-09-28T21:03:54.052298',
-         '__class__': 'User', 'my_number': 89,
-         'updated_at': '2017-09-28T21:03:54.052302',
-         'name': 'Holberton'}
+                'created_at': '2017-09-28T21:03:54.052298',
+                '__class__': 'User', 'my_number': 89,
+                'updated_at': '2017-09-28T21:03:54.052302',
+                'name': 'Holberton'}
 
         obj = User(**dict)
         self.assertTrue(hasattr(obj, 'id'))
@@ -78,13 +78,13 @@ class TestCodeFormat(unittest.TestCase):
         self.assertIsInstance(obj.name, str)
 
         self.assertEqual(obj.id,
-                           '56d43177-cc5f-4d6c-a0c1-e167f8c27337')
+                         '56d43177-cc5f-4d6c-a0c1-e167f8c27337')
         self.assertEqual(obj.created_at,
-                           datetime(2017, 9, 28,
-                                             21, 3, 54, 52298))
+                         datetime(2017, 9, 28,
+                                  21, 3, 54, 52298))
         self.assertEqual(obj.updated_at,
-                           datetime(2017, 9, 28,
-                                             21, 3, 54, 52302))
+                         datetime(2017, 9, 28,
+                                  21, 3, 54, 52302))
         self.assertEqual(obj.my_number, 89)
         self.assertEqual(obj.name, 'Holberton')
         self.assertNotEqual(obj.__class__, 'User')
