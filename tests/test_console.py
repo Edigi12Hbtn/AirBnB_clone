@@ -1,3 +1,4 @@
+"""Test cases for console class."""
 import unittest
 import pep8
 
@@ -10,3 +11,5 @@ class TestCodeFormat(unittest.TestCase):
         result = pep8style.check_files(['console.py'])
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
+
+    
