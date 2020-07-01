@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-python modulo for BaseModel class.
+python module for BaseModel class.
 """
 import uuid
 from datetime import datetime
