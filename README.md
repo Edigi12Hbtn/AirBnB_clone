@@ -32,14 +32,14 @@ show: Prints the string representation of an instance based on the class name an
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Running all the tests:
 ```
-Give an example
+python3 -m unittest discover tests
+```
+
+Also you can test file by file by using the commands this way:
+```
+python3 -m unittest tests/test_models/test_base_model.py
 ```
 
 ## Versioning
