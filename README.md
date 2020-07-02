@@ -45,6 +45,7 @@ python3 -m unittest tests/test_models/test_base_model.py
 ## Versioning
 
 We used python 3.4
+pep8 for styles
 
 ## License
 
