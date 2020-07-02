@@ -54,3 +54,4 @@ Free license
 ## Acknowledgments
 
 - Based on AirBnB page.
+- Project from Holberton School
